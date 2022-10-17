@@ -3,9 +3,14 @@
 // First, let's create a simple React component that renders a list of items.
 //Each item in the list will have a name and a description.
 //We'll use the useReducer Hook to manage our state in this component.
-//The useReducer Hook is used to manage state in React components.
-//The useReducer Hook takes a reducer function and an initial state as arguments.
-//The reducer function takes two arguments, the state and an action. The state is the current state of the component. The action is an object that contains a type and a payload. The type is used to determine what type of change we want to make to the state. The payload is the data that we want to use to make the change to the state.
+//useReducer Hook 
+//used to manage state in React components.
+//Takes a reducer function and an initial state as arguments.
+//The reducer function takes two arguments, the state and an action. 
+//The state is the current state of the component.
+//The action is an object that contains a type and a payload.
+//The type is used to determine what type of change we want to make to the state.
+//The payload is the data that we want to use to make the change to the state.
 //The useReducer Hook returns an array.
 //The first element in the array is the current state.
 //The second element is a dispatch function.
